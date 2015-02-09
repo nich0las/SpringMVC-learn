@@ -24,6 +24,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="ModSpringMVC" />
+        <module name="myBatisLearn" />
       </profile>
     </annotationProcessing>
   </component>

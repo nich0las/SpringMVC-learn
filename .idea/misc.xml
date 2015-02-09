@@ -28,11 +28,15 @@
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
   <component name="IdProvider" IDEtalkID="5400449351023140130171A33D0058BF" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/ModSpringMVC/pom.xml" />
+        <option value="$PROJECT_DIR$/myBatisLearn/pom.xml" />
       </list>
     </option>
   </component>
