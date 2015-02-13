@@ -3,8 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ModSpringMVC/ModSpringMVC.iml" filepath="$PROJECT_DIR$/ModSpringMVC/ModSpringMVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Boot/Spring-Boot.iml" filepath="$PROJECT_DIR$/Spring-Boot/Spring-Boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-learn/SpringBoot-learn.iml" filepath="$PROJECT_DIR$/SpringBoot-learn/SpringBoot-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringIO-learn/SpringIO-learn.iml" filepath="$PROJECT_DIR$/SpringIO-learn/SpringIO-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaWeb/javaWeb.iml" filepath="$PROJECT_DIR$/javaWeb/javaWeb.iml" />
       <module fileurl="file://$PROJECT_DIR$/myBatisLearn/myBatisLearn.iml" filepath="$PROJECT_DIR$/myBatisLearn/myBatisLearn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myBatisLearn2/myBatisLearn2.iml" filepath="$PROJECT_DIR$/myBatisLearn2/myBatisLearn2.iml" />
     </modules>
   </component>
 </project>

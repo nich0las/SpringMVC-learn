@@ -24,8 +24,16 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="ModSpringMVC" />
-        <module name="myBatisLearn" />
+        <module name="myBatisLearn2" />
+        <module name="Spring-Boot" />
+        <module name="SpringBoot-learn" />
+        <module name="SpringIO-learn" />
+        <module name="Test" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Spring-Boot" target="1.6" />
+      <module name="SpringBoot-learn" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>

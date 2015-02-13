@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.test.bean.UserMapper">
+
+	<sql id="userColuns"> uid,account,user_name </sql>
+	
+	<!-- 查询 -->
+	<select id="selectUser" parameterType="java.lang.String" resultType="User">
+		select <include refid="userColuns"/> from user where uid = #{id};
+	</select>
+
+	<!-- 查询测试 -->
+	<select id="selectUserTestIf" parameterType="User" resultType="User">
+		select <include refid="userColuns"/> from user where uid >= #{uid}
+		<if test="account != null">
+             and account like  "%%"
+        </if>
+
+		;
+	</select>
+
+
+
+
+	<select id="selectAll" resultType="User">
+		select * from user;
+	</select>
+	
+	<!-- 插入 useGeneratedKeys="true"  keyProperty="uid"  -->
+	<insert id="insertUser" parameterType="User" useGeneratedKeys="true"  keyProperty="uid"  >
+		insert into user(account,user_name,created_date) values(#{account},#{userName},now())
+	</insert>
+
+
+	<!-- 批量插入 -->
+	<insert id="insertBatch" parameterType="java.util.List">
+		insert into user(account,user_name,created_date) 
+		values
+		<foreach collection="list" item="item" index="index" separator="," >
+			(#{item.account},#{item.userName},now())
+		</foreach>
+	</insert>
+
+
+</mapper>  
