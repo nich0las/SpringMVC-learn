@@ -26,6 +26,7 @@
         <module name="ModSpringMVC" />
         <module name="myBatisLearn2" />
         <module name="Spring-Boot" />
+        <module name="Spring-Boot3" />
         <module name="SpringBoot-learn" />
         <module name="SpringIO-learn" />
         <module name="Test" />

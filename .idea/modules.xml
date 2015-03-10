@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringIO-learn/SpringIO-learn.iml" filepath="$PROJECT_DIR$/SpringIO-learn/SpringIO-learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaWeb/javaWeb.iml" filepath="$PROJECT_DIR$/javaWeb/javaWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Boot3/maven-jetty-test.iml" filepath="$PROJECT_DIR$/Spring-Boot3/maven-jetty-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/myBatisLearn/myBatisLearn.iml" filepath="$PROJECT_DIR$/myBatisLearn/myBatisLearn.iml" />
       <module fileurl="file://$PROJECT_DIR$/myBatisLearn2/myBatisLearn2.iml" filepath="$PROJECT_DIR$/myBatisLearn2/myBatisLearn2.iml" />
     </modules>
